@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE } from 'common';
+import { STYLE } from './common';
 
 const { COLOR } = STYLE;
 

@@ -1,8 +1,7 @@
 import React from 'react';
 import { SafeAreaView, Text } from 'react-native';
 
-
-import { Button } from 'components';
+import { Button } from './components';
 import styles from './App.style';
 import PKG from '../package.json';
 
@@ -11,7 +10,7 @@ const App = () => (
     <Text style={styles.text}>
       {`${PKG.name} ${PKG.version}`}
     </Text>
-    <Button title="Press me" />
+    <Button title="Presioname" />
   </SafeAreaView>
 );
 
