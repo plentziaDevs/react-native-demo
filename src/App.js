@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, SafeAreaView, Text } from 'react-native';
 
-import styles from 'App.style';
+import styles from './App.style';
 import PKG from '../package.json';
 
 const App = () => (
