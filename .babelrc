@@ -1,0 +1,16 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    [
+      "module-resolver", {
+        "root": ["./src"],
+        "cwd": "babelrc",
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
