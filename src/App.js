@@ -1,6 +1,8 @@
 import React from 'react';
-import { Button, SafeAreaView, Text } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
+
+import { Button } from 'components';
 import styles from './App.style';
 import PKG from '../package.json';
 

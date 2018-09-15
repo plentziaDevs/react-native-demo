@@ -20,17 +20,10 @@ exports[`<App> renders 1`] = `
       }
     }
   >
-    react-native-demo 0.0.1
+    react-native-demo 0.0.2
   </Text>
   <View
-    accessibilityComponentType="button"
-    accessibilityTraits={
-      Array [
-        "button",
-      ]
-    }
     accessible={true}
-    isTVSelectable={true}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -38,36 +31,32 @@ exports[`<App> renders 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "borderRadius": 20,
+          "height": 40,
+          "justifyContent": "center",
+          "marginVertical": 5,
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
-    <View
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
-        Array [
-          Object {},
-        ]
+        Object {
+          "color": "white",
+        }
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#007AFF",
-              "fontSize": 18,
-              "padding": 8,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Press me
-      </Text>
-    </View>
+      Press me
+    </Text>
   </View>
 </RCTSafeAreaView>
 `;
